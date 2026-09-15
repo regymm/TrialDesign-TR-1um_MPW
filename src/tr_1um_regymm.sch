@@ -24,6 +24,7 @@ N 170 -150 170 -120 {lab=VSS}
 N 170 -260 170 -230 {lab=VDD}
 N 540 -670 540 -640 {lab=P13}
 N 540 -750 540 -730 {lab=VSS}
+N 830 -170 860 -170 {lab=#net1}
 C {devices/title.sym} 0 0 0 0 {name=l1 author="Y Gu"}
 C {devices/iopin.sym} 40 -920 0 1 {name=p1 lab=P1}
 C {devices/iopin.sym} 40 -900 0 1 {name=p2 lab=P2}
@@ -98,3 +99,15 @@ spiceprefix=D
 m=1}
 C {devices/lab_pin.sym} 540 -640 2 0 {name=p55 sig_type=std_logic lab=P13}
 C {devices/lab_pin.sym} 540 -750 2 0 {name=p57 sig_type=std_logic lab=VSS}
+C {devices/lab_pin.sym} 660 -210 1 0 {name=p58 sig_type=std_logic lab=VDD}
+C {devices/lab_pin.sym} 700 -90 3 0 {name=p59 sig_type=std_logic lab=VSS}
+C {devices/lab_pin.sym} 410 -170 0 0 {name=p61 sig_type=std_logic lab=P15}
+C {tr1um_uarttx_big.sym} 680 -150 0 0 {name=x7}
+C {devices/code_shown.sym} 980 -280 0 0 {name=s1 only_toplevel=false value=".include ../tr1um_uarttx_big.spice"}
+C {TR-1um_5_stdcell/CLKBUF_X4.sym} 430 -170 0 0 {name=x8}
+C {devices/lab_pin.sym} 460 -210 1 0 {name=p62 sig_type=std_logic lab=VDD}
+C {devices/lab_pin.sym} 460 -130 3 0 {name=p63 sig_type=std_logic lab=VSS}
+C {devices/lab_pin.sym} 910 -210 1 0 {name=p64 sig_type=std_logic lab=VDD}
+C {devices/lab_pin.sym} 910 -130 3 0 {name=p65 sig_type=std_logic lab=VSS}
+C {TR-1um_5_stdcell/BUF_X4.sym} 880 -170 0 0 {name=x9}
+C {devices/lab_pin.sym} 980 -170 2 0 {name=p60 sig_type=std_logic lab=P12}
